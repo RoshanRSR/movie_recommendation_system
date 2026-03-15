@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load dataset 
-movies = pd.read_csv("dataset/tmdb_5000_movies.csv")
+movies = pd.read_csv("dataset/movies_list.csv")
 # select column
 movies = movies[['title','overview']]
 #remove blank/missing value
